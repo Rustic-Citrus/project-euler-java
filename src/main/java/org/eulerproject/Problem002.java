@@ -16,7 +16,7 @@ public class Problem002 extends EulerProblem {
     arr.add(2);
 
     while (sum1 < num) {
-      sum1 = arr.get(arr.size() - 1) + arr.get(arr.size()- 2);
+      sum1 = arr.getLast() + arr.get(arr.size()- 2);
       arr.add(sum1);
     }
 
