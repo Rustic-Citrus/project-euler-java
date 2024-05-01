@@ -12,7 +12,7 @@ class Problem001Test {
 
   @BeforeAll
   static void instantiateProblem() {
-    testProblem = new Problem001(1);
+    testProblem = new Problem001();
   }
 
   @Test

@@ -3,8 +3,8 @@ package org.eulerproject;
 import java.util.ArrayList;
 
 public class Problem001 extends EulerProblem {
-    public Problem001(int num) {
-        super(num);
+    public Problem001() {
+        super(1);
     }
 
     @Override
