@@ -7,7 +7,7 @@ import org.junit.jupiter.api.DisplayName;
 import static org.junit.jupiter.api.Assertions.assertAll;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-class Problem001Tests {
+class Problem001Test {
   private static Problem001 testProblem;
 
   @BeforeAll
@@ -17,7 +17,7 @@ class Problem001Tests {
 
   @Test
   @DisplayName("Should return the correct answer")
-  void testProblem001ReturnsNumber() {
+  void testProblemReturnsCorrectAnswer() {
     int expectedOne = 23;
     int expectedTwo = 233168;
 
