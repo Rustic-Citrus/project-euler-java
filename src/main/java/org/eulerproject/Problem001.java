@@ -10,7 +10,7 @@ public class Problem001 extends EulerProblem {
     @Override
     public int solve(int num) {
         int counter = 0;
-        ArrayList<Integer> arr = new ArrayList<Integer>();
+        ArrayList<Integer> arr = new ArrayList<>();
         int sum = 0;
 
         while (counter < num) {
